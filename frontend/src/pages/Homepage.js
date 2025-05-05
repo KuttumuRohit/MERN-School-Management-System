@@ -17,14 +17,12 @@ const Homepage = () => {
                         <StyledTitle>
                             Welcome to
                             <br />
-                            School Management
+                            Hostel Management
                             <br />
                             System
                         </StyledTitle>
                         <StyledText>
-                            Streamline school management, class organization, and add students and faculty.
-                            Seamlessly track attendance, assess performance, and provide feedback.
-                            Access records, view marks, and communicate effortlessly.
+                        This hostel management app streamlines operations by organizing rooms and residents, tracking check-ins/check-outs, and managing conduct. It facilitates communication between staff and residents, provides access to records, and handles payments or maintenance requests, ensuring efficient hostel management.
                         </StyledText>
                         <StyledBox>
                             <StyledLink to="/choose">

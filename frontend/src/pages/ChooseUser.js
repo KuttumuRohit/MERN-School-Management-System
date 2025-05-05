@@ -51,7 +51,7 @@ const ChooseUser = ({ visitor }) => {
       }
     }
 
-    else if (user === "Teacher") {
+    else if (user === "teacher") {
       if (visitor === "guest") {
         const email = "tony@12"
         const fields = { email, password }
@@ -119,9 +119,9 @@ const ChooseUser = ({ visitor }) => {
                   <Group fontSize="large" />
                 </Box>
                 <StyledTypography>
-                  Teacher
+                  Warden
                 </StyledTypography>
-                Login as a teacher to create courses, assignments, and track student progress.
+                Login as a warden to monitor and track student activity.
               </div>
             </StyledPaper>
           </Grid>
